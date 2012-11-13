@@ -24,19 +24,24 @@ path.link {
   stroke-width: 1.5px;
 }
 
+#container {
+	width: 80%;
+}
+
     </style>
   </head>
   <body>
-    <div id="body">
+	<center>
+    <div id="container">
     </div>  
-
+	</center>
 <script type="text/javascript" src="brainData.js"></script>    
 <script type="text/javascript">
 
 
-var m = [20, 120, 20, 120],
+var m = [100, 120, 100, 120],
     w = 3000 - m[1] - m[3],
-    h = 4000 - m[0] - m[2],
+    h = 1700 - m[0] - m[2],
     i = 0,
     root;
 
@@ -46,7 +51,7 @@ var tree = d3.layout.tree()
 var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
 
-var vis = d3.select("#body").append("svg:svg")
+var vis = d3.select("#container").append("svg:svg")
     .attr("width", w + m[1] + m[3])
     .attr("height", h + m[0] + m[2])
   .append("svg:g")
@@ -66,16 +71,23 @@ var loadData = function(data){
     }
   }
 
-  function toggleRecursive(d) {
-	toggle(d);
-    if (d.children) {
-	  d.children.forEach(toggleRecursive);
-    }
+  function toggleRecursive(d,level) {
+	
+		
+		if (d.children)
+		{
+			for (var i = -1, l = d.children.length; ++i < l;) {
+					toggleRecursive(d.children[i],level-1);
+				}
+		}
+		if (level < 0 ) {
+			toggle(d);
+		}
   }
   // Initialize the display to show a few nodes.
   //root.children.forEach(toggleAll);
-  toggleRecursive(root);
-  toggle(root);
+  toggleRecursive(root, 3);
+//  toggle(root);
 //  toggle(root.children[1]);
 //  toggle(root.children[1].children[2]);
 //  toggle(root.children[9]);

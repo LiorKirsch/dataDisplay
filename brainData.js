@@ -1,4 +1,4 @@
-var treeData = {"name":"Basic cell groups and regions","children" :[
+var treeData = {"name":"Brain regions","children" :[
 {"name":"Cerebrum","children" :[
 {"name":"Cerebral cortex","children" :[
 {"name":"Cortical plate","children" :[
