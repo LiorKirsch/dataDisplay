@@ -1,0 +1,210 @@
+StructureName,Abbreviation,ParentStruct,red,green,blue,informaticsId,StructureId
+Basic cell groups and regions,Brain,,176,255,255,1,0
+Cerebrum,CH,Brain,176,240,255,2,70
+Cerebral cortex,CTX,CH,176,255,184,3,85
+Cortical plate,CTXpl,CTX,112,255,112,4,86
+Olfactory areas,OLF,CTXpl,144,255,144,8,228
+Main olfactory bulb,MOB,OLF,160,255,171,9,204
+Accessory olfactory bulb,AOB,OLF,160,255,176,10,18
+Anterior olfactory nucleus,AON,OLF,144,255,184,11,19
+Taenia tecta,TT,OLF,160,255,160,12,356
+Piriform area,PIR,OLF,160,255,167,13,261
+Nucleus of the lateral olfactory tract,NLOT,OLF,160,255,170,14,218
+Piriform-amygdalar area,PAA,OLF,160,255,169,15,239
+Cortical amygdalar area,COA,OLF,160,255,177,16,78
+Postpiriform transition area,TR,OLF,160,255,166,17,353
+Hippocampal formation,HPF,CTXpl,144,255,176,24,135
+Hippocampal region,HIP,HPF,121,255,128,25,134
+Ammon's Horn,CA,HIP,122,255,122,26,46
+Dentate gyrus,DG,HIP,114,250,114,28,90
+Retrohippocampal region,RHP,HPF,144,255,176,30,385
+Subiculum,SUB,RHP,128,255,151,31,345
+Cerebral nuclei,CNU,CH,176,216,255,34,77
+Striatum,STR,CNU,160,200,232,35,342
+Striatum dorsal region,STRd,STR,160,216,232,36,343
+Caudoputamen ,CP,STRd,160,216,248,37,83
+Striatum ventral region,STRv,STR,160,232,232,38,344
+Nucleus accumbens ,ACB,STRv,160,232,224,39,6
+Fundus of striatum,FS,STRv,160,228,224,40,124
+Olfactory tubercle ,OT,STRv,160,224,224,41,235
+Lateral septal complex,LSX,STR,160,239,232,42,175
+Lateral septal nucleus ,LS,LSX,153,239,232,43,171
+Septofimbrial nucleus ,SF,LSX,147,239,232,44,321
+Striatum-like amygdalar nuclei,sAMY,STR,160,208,232,45,317
+Central amygdalar nucleus ,CEA,sAMY,171,208,248,46,66
+Anterior amygdalar area,AAA,sAMY,186,208,248,47,2
+Medial amygdalar nucleus ,MEA,sAMY,176,208,248,48,191
+Pallidum,PAL,CNU,160,200,176,49,241
+Pallidum_ dorsal region,PALd,PAL,160,216,176,50,243
+Pallidum_ ventral region,PALv,PAL,160,208,176,51,245
+Magnocellular nucleus,MA,PALv,162,208,176,52,178
+Substantia innominata,SI,PALv,152,208,176,53,325
+Pallidum_ caudal region,PALc,PAL,160,190,176,54,242
+Bed nucleus of the anterior commissure ,BAC,PALc,160,190,152,55,35
+Bed nuclei of the stria terminalis ,BST,PALc,160,190,160,56,43
+Pallidum_ medial region,PALm,PAL,160,224,176,57,244
+Brain stem,BS,Brain,144,96,128,60,42
+Interbrain,IB,BS,255,95,95,61,140
+Thalamus,TH,IB,255,112,128,62,351
+Thalamus_ polymodal association cortex related,DORpm,TH,255,136,176,63,106
+Anterior group of the dorsal thalamus,ATN,DORpm,255,136,136,64,29
+Anterodorsal nucleus,AD,ATN,255,136,135,65,7
+Anteromedial nucleus,AM,ATN,255,136,134,66,15
+Anteroventral nucleus of thalamus ,AV,ATN,255,136,133,67,31
+Interanterodorsal nucleus of the thalamus,IAD,ATN,255,144,159,68,138
+Interanteromedial nucleus of the thalamus,IAM,ATN,255,136,129,69,139
+Lateral dorsal nucleus of thalamus,LD,ATN,255,136,128,70,160
+Reticular nucleus of the thalamus,RT,DORpm,255,128,128,71,315
+Lateral group of the dorsal thalamus,LAT,DORpm,255,130,130,72,158
+Lateral posterior nucleus of the thalamus,LP,LAT,255,135,130,73,168
+Suprageniculate nucleus,SGN,LAT,255,131,130,74,323
+Geniculate group_ ventral thalamus,GENv,DORpm,255,135,133,75,126
+Intergeniculate leaflet of the lateral geniculate complex,IGL,GENv,255,135,134,76,144
+Ventral part of the lateral geniculate complex,LGv,GENv,255,135,135,77,163
+Intralaminar nuclei of the dorsal thalamus,ILM,DORpm,255,136,132,78,147
+Central lateral nucleus of the thalamus,CL,ILM,255,135,132,79,71
+Central medial nucleus of the thalamus,CM,ILM,255,134,132,80,74
+Paracentral nucleus,PCN,ILM,255,132,132,81,254
+Parafascicular nucleus,PF,ILM,255,130,132,82,257
+Epithalamus,EPI,DORpm,255,136,144,83,119
+Lateral habenula,LH,EPI,255,135,144,84,164
+Medial habenula,MH,EPI,255,134,144,85,201
+Medial group of the dorsal thalamus,MED,DORpm,255,144,176,86,196
+Intermediodorsal nucleus of the thalamus,IMD,MED,255,144,164,87,148
+Mediodorsal nucleus of thalamus,MD,MED,255,144,163,88,186
+Perireunensis nucleus,PR,MED,255,144,160,89,275
+Thalamus_ sensory-motor cortex related,DORsm,TH,255,128,176,90,107
+Geniculate group_ dorsal thalamus,GENd,DORsm,255,112,160,91,125
+Dorsal part of the lateral geniculate complex,LGd,GENd,255,112,161,92,162
+Medial geniculate complex,MG,GENd,255,112,162,93,200
+Peripeduncular nucleus,PP,DORsm,255,112,163,94,271
+Ventral group of the dorsal thalamus,VENT,DORsm,255,108,160,95,362
+Ventral medial nucleus of the thalamus,VM,VENT,255,108,162,96,368
+Ventral posterior complex of the thalamus,VP,VENT,255,108,144,97,371
+Hypothalamus,HY,IB,255,80,80,100,136
+Periventricular zone,PVZ,HY,255,76,80,101,302
+Arcuate hypothalamic nucleus,ARH,PVZ,255,76,79,102,27
+Paraventricular hypothalamic nucleus,PVH,PVZ,255,76,77,103,287
+Periventricular region,PVR,HY,255,77,80,104,300
+Anterodorsal preoptic nucleus,ADP,PVR,255,77,81,105,8
+Anteroventral preoptic nucleus ,AVP,PVR,255,77,83,106,32
+Anteroventral periventricular nucleus,AVPV,PVR,255,77,84,107,33
+Dorsomedial nucleus of the hypothalamus,DMH,PVR,255,77,85,108,103
+Median preoptic nucleus,MEPO,PVR,255,77,86,109,197
+Posterodorsal preoptic nucleus,PD,PVR,255,77,89,110,255
+Parastrial nucleus,PS,PVR,255,77,90,111,279
+Suprachiasmatic nucleus,SCH,PVR,255,77,94,112,318
+Hypothalamic medial zone,MEZ,HY,255,78,80,113,199
+Anterior hypothalamic nucleus,AHN,MEZ,255,78,81,114,10
+Mammillary body,MBO,MEZ,255,78,82,115,182
+Lateral mammillary nucleus,LM,MBO,255,78,83,116,167
+Medial mammillary nucleus,MM,MBO,255,78,84,117,202
+Supramammillary nucleus,SUM,MBO,255,78,85,118,348
+Medial preoptic nucleus,MPN,MEZ,255,78,87,119,205
+Posterior hypothalamic nucleus,PH,MEZ,255,79,83,120,259
+Dorsal premammillary nucleus,PMd,MEZ,255,78,88,121,263
+Ventral premammillary nucleus,PMv,MEZ,255,78,89,122,266
+Ventromedial hypothalamic nucleus,VMH,MEZ,255,78,91,123,369
+Hypothalamic lateral zone,LZ,HY,255,79,80,124,177
+Subthalamic nucleus,STN,LZ,255,79,85,125,341
+Tuberal nucleus,TU,LZ,255,79,86,126,359
+Zona incerta,ZI,LZ,255,79,87,127,382
+Midbrain,MB,BS,255,176,255,128,180
+Midbrain_ sensory related,MBsen,MB,255,176,254,129,183
+Inferior colliculus,IC,MBsen,255,152,255,130,141
+Midbrain trigeminal nucleus,MEV,MBsen,255,152,254,131,198
+Nucleus of the brachium of the inferior colliculus,NB,MBsen,255,152,253,132,213
+Parabigeminal nucleus,PBG,MBsen,255,152,252,133,250
+Nucleus sagulum,SAG,MBsen,255,152,251,134,316
+Superior colliculus_ sensory related,SCs,MBsen,255,152,250,135,320
+Midbrain_ motor related,MBmot,MB,255,132,255,136,181
+Superior colliculus_ motor related,SCm,MBmot,255,178,248,137,319
+Substantia nigra_ reticular part,SNr,MBmot,255,178,247,138,330
+Ventral tegmental area,VTA,MBmot,255,178,246,139,376
+Midbrain reticular nucleus_ retrorubral area,RR,MBmot,255,178,249,140,313
+Periaqueductal gray,PAG,MBmot,255,144,255,141,240
+Interstitial nucleus of Cajal,INC,PAG,255,145,255,142,149
+Pretectal region,PRT,MBmot,255,176,250,143,278
+Anterior pretectal nucleus ,APN,PRT,255,176,249,144,26
+Medial pretectal area,MPT,PRT,255,176,248,145,207
+Nucleus of the optic tract,NOT,PRT,255,176,247,146,219
+Nucleus of the posterior commissure,NPC,PRT,255,176,246,147,220
+Olivary pretectal nucleus,OP,PRT,255,176,245,148,229
+Midbrain reticular nucleus_ magnocellular part_ general,MRNmg,MBmot,255,177,253,149,209
+Ventral tegmental nucleus,VTN,MRNmg,255,177,250,150,377
+Anterior tegmental nucleus ,AT,MRNmg,255,177,252,151,28
+Cuneiform nucleus,CUN,MBmot,255,178,254,152,76
+Red Nucleus,RN,MBmot,255,134,249,153,309
+Oculomotor nucleus,III,MBmot,255,168,255,154,145
+Edinger-Westphal nucleus,EW,MBmot,255,178,253,155,121
+Trochlear nucleus,IV,MBmot,255,178,255,156,155
+Midbrain_ behavioral state related,MBsta,MB,255,176,253,157,184
+Substantia nigra_ compact part,SNc,MBsta,255,158,248,158,329
+Pedunculopontine nucleus,PPN,MBsta,255,158,255,159,272
+Midbrain raphé nuclei,RAmb,MBsta,255,158,254,160,303
+Central linear nucleus raphé,CLI,RAmb,255,158,253,161,73
+Dorsal nucleus raphé,DR,RAmb,255,158,252,162,108
+Interpeduncular nucleus,IPN,RAmb,255,158,247,163,153
+Hindbrain,HB,BS,255,155,168,164,132
+Pons,P,HB,255,155,136,165,237
+Pons_ sensory related,P-sen,P,255,170,98,166,282
+Nucleus of the lateral lemniscus,NLL,P-sen,255,170,97,167,217
+Parabrachial nucleus,PB,P-sen,255,170,96,168,249
+Principal sensory nucleus of the trigeminal,PSV,P-sen,255,170,95,169,283
+Superior olivary complex,SOC,P-sen,255,170,94,170,332
+Pons_ motor related,P-mot,P,255,174,92,171,264
+Barrington's nucleus ,B,P-mot,255,174,80,172,34
+Dorsal tegmental nucleus,DTN,P-mot,255,174,87,173,109
+Pontine central gray,PCG,P-mot,255,174,120,174,253
+Pontine gray,PG,P-mot,255,174,112,175,823
+Supragenual nucleus,SG,P-mot,255,174,84,176,322
+Supratrigeminal nucleus,SUT,P-mot,255,174,82,177,349
+Tegmental reticular nucleus,TRN,P-mot,255,174,81,178,354
+Motor nucleus of trigeminal,V,P-mot,255,174,104,179,360
+Abducens nucleus,VI,MY-mot,255,212,225,180,364
+Facial motor nucleus,VII,MY-mot,255,212,234,181,365
+Pons_ behavioral state related,P-sat,P,255,172,120,182,280
+Superior central nucleus raphé,CS,P-sat,255,172,119,183,84
+Locus ceruleus,LC,P-sat,255,172,118,184,159
+Nucleus incertus,NI,P-sat,255,172,116,185,216
+Nucleus raphé pontis,RPO,P-sat,255,172,115,186,312
+Subceruleus nucleus,SLC,P-sat,255,172,114,187,326
+Sublaterodorsal nucleus,SLD,P-sat,255,172,113,188,327
+Medulla,MY,HB,255,160,176,189,185
+Medulla_ sensory related,MY-sen,MY,255,176,176,190,189
+Area postrema,AP,MY-sen,255,176,178,191,25
+Cochlear nuclei ,CN,MY-sen,255,176,177,192,75
+Dorsal column nuclei,DCN,MY-sen,255,177,176,193,89
+Cuneate nucleus,CU,DCN,255,177,177,194,88
+Gracile nucleus,GR,DCN,255,177,178,195,129
+External cuneate nucleus,ECU,MY-sen,255,176,179,196,112
+Nucleus of the solitary tract,NTS,MY-sen,255,178,176,197,222
+Spinal nucleus of the trigeminal_ caudal part,SPVC,MY-sen,255,176,183,198,336
+Spinal nucleus of the trigeminal_ interpolar part,SPVI,MY-sen,255,176,184,199,337
+Spinal nucleus of the trigeminal_ oral part,SPVO,MY-sen,255,176,182,200,338
+Medulla_ motor related,MY-mot,MY,255,212,219,201,187
+Nucleus ambiguus,AMB,MY-mot,255,212,216,202,16
+Dorsal motor nucleus of the vagus nerve,DMX,MY-mot,255,212,184,203,104
+Inferior olivary complex,IO,MY-mot,255,212,189,204,151
+Inferior salivatory nucleus,ISN,MY-mot,255,212,190,205,154
+Linear nucleus of the medulla,LIN,MY-mot,255,212,191,206,166
+Lateral reticular nucleus,LRN,MY-mot,255,212,193,207,170
+Magnocellular reticular nucleus,MARN,MY-mot,255,212,194,208,179
+Parasolitary nucleus,PAS,MY-mot,255,212,197,209,248
+Paragigantocellular reticular nucleus,PGRN,MY-mot,255,212,198,210,258
+Parapyramidal nucleus,PPY,MY-mot,255,212,200,211,274
+Vestibular nuclei,VNC,MY-mot,255,212,201,212,370
+Lateral vestibular nucleus,LAV,VNC,255,214,201,213,450
+Medial vestibular nucleus,MV,VNC,255,216,201,214,449
+Hypoglossal nucleus,XII,MY-mot,255,212,192,215,379
+Nucleus x,x,MY-mot,255,212,202,216,378
+Nucleus y,y,MY-mot,255,212,203,217,380
+Medulla_ behavioral state related,MY-sat,MY,255,176,192,218,188
+Nucleus raphé magnus,RM,MY-sat,255,176,193,219,308
+Nucleus raphé obscurus,RO,MY-sat,255,176,194,220,310
+Cerebellum,CB,Brain,240,255,160,224,63
+Cerebellar nuclei,CBN,CB,240,240,144,228,64
+Dentate nucleus,DN,CBN,240,242,144,229,105
+Fastigial nucleus,FN,CBN,240,244,144,230,123
+Interposed nucleus,IP,CBN,240,241,144,231,152
+Cerebellar cortex,CBX,CB,240,240,128,232,65
